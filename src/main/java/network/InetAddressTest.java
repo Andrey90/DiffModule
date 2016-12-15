@@ -10,7 +10,7 @@ public class InetAddressTest {
         InetAddress Address = InetAddress.getLocalHost();
         System.out.println(Address);
 
-        String urL = "www.favbet.com";
+        String urL = "www.facebook.com";
 
         Address = InetAddress.getByName(urL);
         System.out.println(Address);
