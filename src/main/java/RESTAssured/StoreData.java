@@ -23,9 +23,9 @@ public class StoreData {
         System.out.println(jsonResponse);
 
         // получение параметра capital (столицы Норвегии)
-        String capital = jsonResponse.getJSONObject(0).getString("nativeName");
+        String capital = jsonResponse.getJSONObject(0).getString("languages");
 
         // проверка, что столицей является Осло
-        Assert.assertEquals(capital, "Україна");
+        Assert.assertEquals(capital, "uk");
     }
 }
